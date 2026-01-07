@@ -24,7 +24,7 @@ class Derived extends Base {
 		System.out.println("k="+k);
 	}
 }
-public class Inheritance {
+public class constructorsinjava {
 	  public static void main(String[] args) {
 		   Base b =new Base();
 		   b.input(10,20);
@@ -36,4 +36,5 @@ public class Inheritance {
 		   d.input(50);
 		   d.display();
 	  }
+	  int push()
 }
