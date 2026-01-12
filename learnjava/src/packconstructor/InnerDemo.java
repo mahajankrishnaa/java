@@ -1,6 +1,5 @@
 
 package packconstructor;
-class newclass;
 class Outer {
     int a = 100;
 
