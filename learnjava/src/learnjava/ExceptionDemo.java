@@ -14,6 +14,9 @@ public class ExceptionDemo {
 		{
 			System.err.println("Divide by zero not allowed");
 		}
+		catch(ArithmeticException e) {
+			System.err.println("Cannot divide by 0")
+		}
 		System.out.println("End of program");
 	}
 }
