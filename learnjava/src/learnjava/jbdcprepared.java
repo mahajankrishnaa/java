@@ -18,12 +18,6 @@ public class jbdcprepared {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/java11","root","root");
-			/*PreparedStatement st = con.prepareStatement("insert into product values (?,?,?)");
-			st.setInt(1, pid);
-			st.setString(2, pname);
-			st.setFloat(3, price);
-			st.executeUpdate();
-			System.out.println("Inserted");*/
 			st = con.prepareStatement("insert into product values ("+pid+",'"+pname+"',"+price+")");
 			st.executeUpdate();
 			System.out.println("Inserted");
@@ -37,8 +31,5 @@ public class jbdcprepared {
 			con.close();
 		}
 	}
-
-}
-public class  {
 
 }
