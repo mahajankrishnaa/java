@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Fundamentals Practice</title>
+
+    <!-- Internal JavaScript -->
+    <script>
+        console.log("Internal script loaded successfully");
+    </script>
+
+    <!-- External JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<h1>JavaScript Fundamentals</h1>
+
+<h2>1. document.write()</h2>
+<script>
+    document.write("Welcome to JavaScript<br>");
+</script>
+
+<h2>2. Data Types Example</h2>
+<script>
+    let n = 10;
+    console.log("Number:", n);
+
+    n = "Raj";
+    console.log("Now String:", n);
+
+    let name = "Ramu";
+    let flag = true;
+
+    console.log(name, flag);
+</script>
+
+<h2>3. Dialog Boxes</h2>
+<button onclick="showAlert()">Show Alert</button>
+<button onclick="showConfirm()">Show Confirm</button>
+
+<h2>4. Rectangle Area</h2>
+<button onclick="rectangleArea()">Find Area</button>
+
+<h2>5. Sum of Two Numbers</h2>
+<button onclick="findSum()">Find Sum</button>
+
+<h2>6. Function Example (Factorial)</h2>
+<button onclick="calculateFactorial()">Calculate Factorial</button>
+
+<h2>7. Marks Total Form</h2>
+<form onsubmit="calculateTotal(); return false;">
+    <input type="number" id="m1" placeholder="Subject 1" required>
+    <input type="number" id="m2" placeholder="Subject 2" required>
+    <input type="number" id="m3" placeholder="Subject 3" required>
+    <button type="submit">Find Total</button>
+</form>
+
+<p id="result"></p>
+
+<h2>8. DOM Manipulation</h2>
+<p id="domText">Original Content</p>
+<button onclick="changeContent()">Change Content</button>
+
+</body>
+</html>
