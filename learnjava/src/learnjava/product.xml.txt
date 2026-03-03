@@ -1,0 +1,17 @@
+<products> <!-- root tag -->
+   <product>
+	<pid>111</pid>
+	<pname>monitor</pname>
+	<price>5000</price>
+   </product>
+   <product>
+	<pid>222</pid>
+	<pname>keyboard</pname>
+	<price>500</price>
+   </product>
+   <product>
+	<pid>333</pid>
+	<pname>mouse</pname>
+	<price>300</price>
+   </product>
+</products>
